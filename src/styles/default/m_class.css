@@ -1,7 +1,29 @@
 .m_container {
-    padding-left: 2em;
-  }
+  margin: 0;
+  padding: 2em 2em 0 2em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
   
 .m_title {
     font-weight: 900;
+    margin: 0;
+}
+
+.m_inner_container_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:initial ;
+  gap: 1.5em;
+  margin: 2em 0 0 0;
+}
+.m_inner_container_list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 1.5em;
+  margin: 2em 0 0 0;
 }
