@@ -10,6 +10,9 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage/>}/>
         </Routes>
+        <footer className="footer">
+                <p>&copy; 2024 <a href='https://github.com/PPark8093' target='_blank'>PPark8093</a>. All rights reserved.</p>
+        </footer>
       </div>
     )
 }

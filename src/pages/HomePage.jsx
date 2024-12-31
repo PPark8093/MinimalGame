@@ -4,7 +4,9 @@ import "../styles/HomePage.css"
 function HomePage() {
   return (
     <div className='m_container'>
-        <h1 className='m_title'>Minimal Game</h1>
+        <header>
+          <h1 className='m_title'>Minimal Game</h1>
+        </header>
         <div className='m_inner_container_grid'>
           <button className='m_button'>틱택토</button>
           <button className='m_button'>스네이크</button>
