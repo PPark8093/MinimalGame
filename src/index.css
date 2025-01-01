@@ -15,7 +15,6 @@
 
   width: 100vw;
   min-height: 100vh;
-  overflow-x: hidden;
 }
 
 body {
@@ -25,5 +24,4 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  width: 100%;
 }

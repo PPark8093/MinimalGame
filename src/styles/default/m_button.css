@@ -8,13 +8,15 @@
   transition: all 0.25s;
   font-size: 1.5rem;
   margin: 0;
+  transform: scale(1);
 }
 
-.m_button:hover , :focus {
+.m_button:hover  {
   border: 2px solid white;
-  scale: 1.5;
+  background-color: rgba(66, 66, 66, 1);
+  transform: scale(1.2);
 }
 
 .m_button:active {
-  scale: 1.3;
+  transform: scale(0.95);
 }

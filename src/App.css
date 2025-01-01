@@ -1,17 +1,8 @@
 .app_cons {
     display: flex;
     width: 100vw;
-    min-height: 100vh;
-    flex-direction: column;
+    height: 100vh;
+    flex-direction: row;
     overflow-x: hidden;
     overflow-y: auto;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.footer {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
